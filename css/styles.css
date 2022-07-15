@@ -1,8 +1,9 @@
 body {
 	font-family: 'Roboto', sans-serif;
-	color: #212121;
 	letter-spacing: 0.03em;
 	font-size: 14px;
+	color: var(--text-color);
+	background-color: var(--background);
 }
 .logo{
 	font-family: 'Raleway', sans-serif;
@@ -39,13 +40,22 @@ body {
 .contact:hover, .contact:focus {
 	color: #2196F3;
 }
-
+.contact-f:hover, .contact-f:focus {
+	color: #2196F3;
+}
 .contact{
 	font-weight: 500;
 	font-size: 14px;
 	line-height: 1.14;
 	letter-spacing: 0.02em;
 	color: #757575;
+}
+.contact-f{
+	font-weight: 400;
+	font-size: 14px;
+	line-height: 1.71;
+	letter-spacing: 0.03em;
+	color: rgba(255, 255, 255, 0.6);
 }
 .glavniy{
 	font-weight: 900;
@@ -73,6 +83,7 @@ body {
 	border-radius: 4px;
 	color: #FFFFFF;
 	border: none;
+	font-family: 'Roboto', sans-serif;
 }
 .main-btn:hover, .main-btn:focus{
     background-color: #188ce8;
@@ -144,6 +155,7 @@ body {
 	border-radius: 4px;
 	color: #212121;
 	border: none;
+	font-family: 'Roboto', sans-serif;
 }
 .btn:hover, .btn:focus	{
 	background: #2196F3;
